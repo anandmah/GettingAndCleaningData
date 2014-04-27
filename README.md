@@ -21,4 +21,11 @@ If you want to run the script, you need to
 
 ### The structure of the scripts
 
-I've added comments to every part of the scripts. So please refer to the comments in the script.
+I've added comments to every part of the scripts. So please refer to the comments in the script. Here are some highlights:
+
+1. Read the training data and test data respectively, both including X(features), y(results), subject.
+2. Read the feature definition (feature id -> feature name) and activity labels (acitivity id -> activity label), reset the column name.
+3. Calculated the subset of features we should focus on (means and stds), using regular expression matching. 
+4. Use rbind to merge the training and test data, and use cbind to merge the X,y,subject. Set the column name for each feature to the real feature name.
+5. Use `merge` function to join the data and the activity labels info by acitivityId, to associate the correct acitivity label for each activity id.
+6. Use `melt` and `dcast` (some kind of flattening and grouping) to calculate the final tidy data.
