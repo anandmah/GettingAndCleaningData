@@ -1,7 +1,7 @@
 GettingAndCleaningData
 ======================
 
-This is the project for Coursera course "Getting and Cleaning Data". This README briefly explains the submitted R scripts. For detailed explanations of submitted tidy dataset, please refer to CodeBook.md.
+This is the project for Coursera course "Getting and Cleaning Data". This README briefly explains the submitted R scripts. For detailed explanations of submitted tidy dataset, please refer to [CodeBook.md](https://github.com/chimneyliu/GettingAndCleaningData/blob/master/CodeBook.md).
 
 About the submitted R script
 ======================
